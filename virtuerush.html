@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WEB VR REPORT</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  
+  <a-scene>
+    <!-- Ground -->
+    <a-plane position="0 -0.1 0" rotation="-90 0 0" width="10" height="10" color="#888"></a-plane>
+   
+    <!-- Walls -->
+    <a-box position="0 2.5 -5" width="10" height="5" depth="0.2" ></a-box>
+    <a-plane material="src:flooring.jpeg" position="0 2.5 -4.862" width="10" depth="0.2" height="5"></a-plane>
+    <a-image src="logo.jpeg" width="3" height="3" position="0.12184 3.19848 -4.766" material="" geometry=""></a-image>></a-image>
+    <a-image src="steamedu.png" width="3" height="3" position="-3.090 3.214 -4.861"></a-image> 
+    <a-image src="mentors.jpg" width="3" height="4" position="3.281 3.216 -4.791" geometry="height: 3"></a-image>
+   <a-box position="0 2.5 5" width="10" height="5" depth="0.2" color="#007BFF"></a-box>
+    <a-plane material="src:flooring.jpeg" position="0 2.5 4.898" rotation="0 180 0" width="10" depth="0.2" height="5"></a-plane>
+    <a-image src="priyasha image.jpeg" width="2.5" height="2.5" position="-4.776 3.456 3.297" rotation= "0 90.305 0"></a-image>
+    <a-entity position="-4.775 1.51135 3.19499" rotation="-1.479 87.353 -0.039" text="value: Priyasha verma
+    contribution made:
+    Web VR report; align: center; width: 5"></a-entity>
+    <a-image src="vaishnavi image.jpeg" width="2.5" height="2.5" position="-4.780 3.448 0.041" rotation= "0 90.305 0"></a-image>
+    <a-entity position="-4.753 1.48786 0.0562" rotation="8.766 87.818 0.379" text="value: Vaishnavi Rukhaiyar
+    Contribution made:
+    Web VR report (pdf); align: center; width: 5"></a-entity>
+    <a-image src="tvisha image.jpeg" width="2.5" height="2.5" position="-4.804 3.481 -3.293" rotation= "0 90.305 0"></a-image>
+    <a-entity position="-4.732 1.50116 -3.41405" rotation="-1.479 87.353 -0.039" text="value: Tvisha Chawla
+    Contribution made:
+    Source code for VirtuRUSH; align: center; width: 5"></a-entity>
+    <a-box position="-5 2.5 0" width="0.2" height="5" depth="10" color="#0056b3"></a-box>
+    <a-plane material="src:flooring.jpeg" position="-4.833 2.511 -0.101" rotation="-0 89.821 -0" width="10" depth="0.2" height="5"></a-plane>
+    <a-box position="5 2.5 0" width="0.2" height="5" depth="10" color="#007BFF"></a-box>
+    <a-plane material="src:flooring.jpeg" position="4.898 2.5 0" rotation="0 -90 0" width="10" depth="0.2" height="5"></a-plane>
+
+    <a-video src="virturush.mp4" autoplay loop="true" position="4.89032 2.48226 -0.17062" rotation="180 90 180" geometry="width: 8; height: 4" ></a-video>
+
+    
+    
+    <!-- Ground -->
+    <a-plane position="0 0.1 0" rotation="270 0 0" width="10" height="10" color="#b067f0"></a-plane>
+   
+    <!-- Ceiling -->
+    <a-box position="0 5 0" width="10" height="0.2" depth="10" color="#b067f0"></a-box>
+
+    <!-- Lighting -->
+    <a-light type="ambient" color="#888"></a-light>
+    <a-light type="directional" position="-3 5 -1"></a-light>
+
+    <!-- Camera -->
+    <a-entity camera position="0 2 3" look-controls wasd-controls></a-entity>
+  </a-scene>
+  
+   
+    
+
+</body>
+</html>
